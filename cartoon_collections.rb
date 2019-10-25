@@ -27,10 +27,10 @@ def long_planeteer_calls(planet)# code an argument here
 
 end
 
-
+cheese_types = ["cheddar", "gouda", "camembert"]
 def find_the_cheese(cheese)# code an argument here
   # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  cheeese_types = cheese_types
 
   myArray = cheese
      myArray.each {|n|
