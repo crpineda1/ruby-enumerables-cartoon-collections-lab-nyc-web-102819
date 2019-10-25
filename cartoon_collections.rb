@@ -27,22 +27,22 @@ def long_planeteer_calls(planet)# code an argument here
 
 end
 
-cheese_types = ["cheddar", "gouda", "camembert"]
+
 def find_the_cheese(cheese)# code an argument here
   # the array below is here to help
-  cheeese_types = cheese_types
+  cheese_types = ["cheddar", "gouda", "camembert"]
 
   myArray = cheese
      myArray.each {|n|
                     i = 0
-                    while i < cheeese_types.count
-                     if n != cheeese_types[i]
+                    while i < cheese_types.count
+                     if n != cheese_types[i]
                         i += 1
                       else
-                        return cheeese_types[i]
+                        return cheese_types[i]
                         i += 1
                       end
-
+                      return nil
                     end
                   }
 
