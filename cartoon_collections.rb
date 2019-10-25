@@ -1,3 +1,4 @@
+require  'pry'
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
 myArray = dwarves
@@ -25,7 +26,7 @@ def long_planeteer_calls(planet)# code an argument here
   array1 = []
   i = 0
     myArray.map {|n|
-                  array1[i] = n.capitalize + "!"
+binding.pry                  array1[i] = n.capitalize + "!"
                   i += 1
                 }
 array1
