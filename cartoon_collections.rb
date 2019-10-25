@@ -46,8 +46,10 @@ def find_the_cheese(cheese)# code an argument here
                                   return item_name
                                 end
                                 }
-    else
+    elsif i == cheese_types.count
       return nil
+    else
+      
     end
     i += 1
   end
