@@ -35,11 +35,11 @@ def find_the_cheese(cheese)# code an argument here
   myArray = cheese
      myArray.each {|n|
                     i = 0
-                    while i < cheese_types.count
+                    while i < cheeese_types.count
                      if n != cheese_types[i]
                         i += 1
                       else
-                        return cheese_types[i]
+                        return cheeese_types[i]
                         i += 1
                       end
 
