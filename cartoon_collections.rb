@@ -4,7 +4,6 @@ myAarray = dwarves
   myArray.each {|n|
                     puts n}
 
-end
 
 
 end
