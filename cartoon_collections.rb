@@ -32,7 +32,7 @@ def long_planeteer_calls(planet)# code an argument here
                   i += 1
                 end
                 }
-array1
+#array1
 end
 
 
