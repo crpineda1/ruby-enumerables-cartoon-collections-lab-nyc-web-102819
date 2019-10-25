@@ -23,7 +23,7 @@ def long_planeteer_calls(planet)# code an argument here
   myArray = planet
 
      myArray.any? {|n| n.count >= 4}
-                    
+
 
 end
 
