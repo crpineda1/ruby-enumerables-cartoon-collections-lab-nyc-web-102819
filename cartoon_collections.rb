@@ -41,7 +41,7 @@ def find_the_cheese(cheese)# code an argument here
                         i += 1
                       elsif i == cheese_types-1
                         return nil
-                      else  
+                      else
                         i += 1
                       end
 
