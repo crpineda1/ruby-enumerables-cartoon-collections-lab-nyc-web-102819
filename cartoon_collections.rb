@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
-  dwarves.each {|n| p n}
-  
+  dwarves.collect {|n| p n}
+
 end
 
 
