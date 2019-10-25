@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
-  dwarves.collect {|n| p n}
+  dwarves.collect {|n| puts "#{n}"}
 
 end
 
