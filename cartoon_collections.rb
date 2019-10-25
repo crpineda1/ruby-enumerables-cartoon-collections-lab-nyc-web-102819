@@ -22,7 +22,11 @@ def long_planeteer_calls(planet)# code an argument here
   # Your code here
   myArray = planet
 
-     myArray.collect {|n| n.capitalize  + "!" }
+     if myArray.count > 4
+       p true
+     else
+       p false
+     end
 
 end
 
