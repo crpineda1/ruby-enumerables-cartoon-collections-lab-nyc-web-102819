@@ -7,12 +7,16 @@ myArray = dwarves
                 puts "#{i}. #{n}"
               }
 
-
-
 end
 
 def summon_captain_planet# code an argument here
   # Your code here
+  myArray = dwarves
+  array1 = []  
+    myArray.each {|n|
+                  array1.push(n)
+                }
+array1
 end
 
 def long_planeteer_calls# code an argument here
