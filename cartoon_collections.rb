@@ -39,7 +39,7 @@ def find_the_cheese(cheese)# code an argument here
                      if n == cheese_types[i]
                         return cheese_types[i]
                         i += 1
-                      elsif i == cheese_types-1
+                      elsif i == cheese_types.count - 1
                         return nil
                       else
                         i += 1
