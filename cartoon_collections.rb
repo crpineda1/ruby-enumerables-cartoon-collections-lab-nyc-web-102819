@@ -39,6 +39,7 @@ def find_the_cheese(cheese)# code an argument here
                     while i < cheese_types.count
                      if n == cheese_types[i]
                         puts cheese_types [i]
+                        i += 1
                       else
                         i += 1
                       end
