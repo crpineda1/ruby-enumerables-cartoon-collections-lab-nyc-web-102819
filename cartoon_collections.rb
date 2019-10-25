@@ -30,7 +30,7 @@ def long_planeteer_calls(planet)# code an argument here
 
                  array1 <<  n.capitalize +"!" #
 
-                   
+
 
 binding.pry
                 }
