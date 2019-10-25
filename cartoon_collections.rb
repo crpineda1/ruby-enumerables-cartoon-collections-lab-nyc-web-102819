@@ -41,7 +41,7 @@ def find_the_cheese(cheese)# code an argument here
                       else
                       i += 1
                       end
-                      
+
                     end
                   }
 
