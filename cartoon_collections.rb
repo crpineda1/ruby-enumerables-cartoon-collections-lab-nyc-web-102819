@@ -32,8 +32,8 @@ def long_planeteer_calls(planet)# code an argument here
 
                    i += 1
                 end
-
-                } binding.pry
+binding.pry
+                }
 #array1
 end
 
