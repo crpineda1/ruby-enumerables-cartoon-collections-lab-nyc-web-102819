@@ -39,7 +39,7 @@ def find_the_cheese(cheese)# code an argument here
                      if n != cheese_types[i]
                         i += 1
                       else
-                        puts cheese_types[i]
+                        p cheese_types[i]
                         i += 1
                       end
 
