@@ -29,11 +29,11 @@ def long_planeteer_calls(planet)# code an argument here
 
                   while i<myArray.count do
                  array1[i] = n.capitalize #
-                   #binding.pry
+                   
                    i += 1
                 end
 
-                }
+                } binding.pry
 #array1
 end
 
