@@ -28,8 +28,8 @@ def long_planeteer_calls(planet)# code an argument here
      myArray.map {|n|
 
                   while i<myArray.count do
-                 array1[i] = n.capitalize #binding.pry + "!"
-                  i += 1
+                 array1[i] = n.capitalize # 
+                  i += 1 binding.pry
                 end
                 }
 #array1
