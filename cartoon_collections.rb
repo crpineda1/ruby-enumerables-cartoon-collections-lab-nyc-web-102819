@@ -32,21 +32,24 @@ def find_the_cheese(cheese)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  myArray = cheese
-     myArray.each {|n|
-                    i = 0
-                    while i < cheese_types.count
-                     if n == cheese_types[i]
-                        return cheese_types[i]
-                        i += 1
-                      elsif i == cheese_types.count - 1
-                        return nil
-                      else
-                        i += 1
-                      end
+  i = 0 # element numnber in cart1
+  while i < cheese_types.count do
 
-                    end
-                    #return nil
-                  }
+    item_name = cheese_types[i]
 
+    # element => element number in cheese
+
+    if cheese.any? {|element| element== item_name}
+
+      cheese.each { |element|
+                                if element == item_name
+                                  return item_name
+                                end
+                                }
+    else
+      return nil
+    end
+    i += 1
+  end
+  cart2
 end
