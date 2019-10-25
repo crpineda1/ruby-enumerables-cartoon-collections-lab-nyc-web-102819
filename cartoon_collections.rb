@@ -25,9 +25,12 @@ def long_planeteer_calls(planet)# code an argument here
   myArray = planet
   array1 = []
   i = 0
-     myArray.map {|n|binding.pry
+     myArray.map {|n|
+
+                  while i<myArray.count do
                  array1[i] = n.capitalize + "!"
-                  i += 1
+                  i += 1 binding.pry
+                end
                 }
 array1
 end
