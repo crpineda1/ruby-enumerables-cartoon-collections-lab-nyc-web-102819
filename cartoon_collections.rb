@@ -2,8 +2,8 @@ def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
 myArray = dwarves
   i=0
-  myArray.each {|n| 
-                i+=1 
+  myArray.each {|n|
+                i+=1
                 puts "#{i}. #{n}"
               }
 
