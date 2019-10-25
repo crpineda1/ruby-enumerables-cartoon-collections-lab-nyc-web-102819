@@ -27,11 +27,11 @@ def long_planeteer_calls(planet)# code an argument here
   i = 0
      myArray.map {|n|
 
-                  
+
                  array1 <<  n.capitalize #
 
                    
-                
+
 binding.pry
                 }
 #array1
