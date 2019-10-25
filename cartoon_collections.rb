@@ -25,10 +25,10 @@ def long_planeteer_calls(planet)# code an argument here
   array1 = []
   i = 0
     myArray.each {|n|
-                  array1 << "#{n.capitalize}!"
+                  array1 << "#{n}!"
                   #i += 1
                 }
-array1
+array1.capitalize
 end
 
 def find_the_cheese# code an argument here
