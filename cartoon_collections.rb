@@ -23,9 +23,8 @@ end
 def long_planeteer_calls(planet)# code an argument here
   # Your code here
   myArray = planet
-  array1 = []
-  i = 0
-     myArray.collect! {|n| n.capitalize +"!" } #binding.pry
+  
+     myArray.collect {|n| n.capitalize +"!" } #binding.pry
 
 end
 
