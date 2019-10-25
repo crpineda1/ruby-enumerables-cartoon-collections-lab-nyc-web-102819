@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
-myAarray = dwarves
+myArray = dwarves
   myArray.each {|n|
                     puts n}
 
