@@ -31,7 +31,8 @@ def long_planeteer_calls(planet)# code an argument here
                  array1[i] = n.capitalize #
                    #binding.pry
                 end
-                } i += 1
+                i += 1
+                } 
 #array1
 end
 
