@@ -13,11 +13,9 @@ end
 def summon_captain_planet(planet)# code an argument here
   # Your code here
   myArray = planet
-  array1 = []
-    myArray.each {|n|
-                  array1.push(n)
-                }
-array1
+  
+   myArray.collect {|n| n.capitalize  + "!" }
+
 end
 
 def long_planeteer_calls(planet)# code an argument here
