@@ -25,15 +25,15 @@ def long_planeteer_calls(planet)# code an argument here
   myArray = planet
   array1 = []
   i = 0
-     myArray.map {|n|
+     myArray.map {|n| n.capitalize & "!"}binding.pry
 
 
-                 array1 <<  n.capitalize & "!" #
+              
 
 
 
-binding.pry
-                }
+
+                
 #array1
 end
 
