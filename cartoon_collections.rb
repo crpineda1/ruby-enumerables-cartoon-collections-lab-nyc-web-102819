@@ -42,7 +42,7 @@ def find_the_cheese(cheese)# code an argument here
                         #return cheese_types [i]
                         i += 1
                       end
-     
+
                     end
                   }
 
