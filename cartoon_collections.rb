@@ -35,8 +35,8 @@ def find_the_cheese(cheese)# code an argument here
   myArray = cheese
   i = 0
      myArray.each {|n|
-                    while i < cheese.count
-binding.pry                      if n == cheese_types[i]
+                    while i < cheese.count binding.pry 
+                     if n == cheese_types[i]
                         puts cheese_type [i]
                       else
                       i += 1
