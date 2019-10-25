@@ -28,7 +28,7 @@ def long_planeteer_calls(planet)# code an argument here
                   array1.push(n)
                   #i += 1
                 }
-array1.capitalize
+array1
 end
 
 
