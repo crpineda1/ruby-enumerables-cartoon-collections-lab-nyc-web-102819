@@ -23,7 +23,7 @@ end
 def long_planeteer_calls(planet)# code an argument here
   # Your code here
   myArray = planet
-binding.pry
+
      myArray.collect {|n| n  +"!" }
 
 end
