@@ -25,7 +25,7 @@ def long_planeteer_calls(planet)# code an argument here
   array1 = []
   i = 0
     myArray.map {|n|
-                  array1[i] = "#{n}!".capitalize
+                  array1[i] = n.capitalize + "!"
                   i += 1
                 }
 array1
