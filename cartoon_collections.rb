@@ -13,7 +13,7 @@ end
 def summon_captain_planet(planet)# code an argument here
   # Your code here
   myArray = planet
-  
+
    myArray.collect {|n| n.capitalize  + "!" }
 
 end
