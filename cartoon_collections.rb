@@ -34,7 +34,7 @@ def find_the_cheese(cheese)# code an argument here
 
   myArray = cheese
   i = 0
-     myArray.select {|n|
+     myArray.map {|n|
                     while i < cheese.count
                       if n == cheese_types[i]
                         p cheese_type [i]
