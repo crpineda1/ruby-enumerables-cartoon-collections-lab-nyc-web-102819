@@ -22,11 +22,12 @@ def long_planeteer_calls(planet)# code an argument here
   # Your code here
   myArray = planet
 
-     if myArray.count >= 4
-       p true
-     else
-       p false
-     end
+     myArray.each {|n|
+                    if n.count >= 4
+                      p true
+                    else
+                      p false
+                    }
 
 end
 
