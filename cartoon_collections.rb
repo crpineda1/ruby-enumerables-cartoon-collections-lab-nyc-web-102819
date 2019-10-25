@@ -1,6 +1,7 @@
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
-  dwarves.each {|n| put n}
+  dwarves.each {|n| p n}
+  
 end
 
 
